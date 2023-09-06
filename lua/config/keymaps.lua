@@ -28,12 +28,7 @@ vim.keymap.set("n", "<leader>t", '<CMD>lua require("FTerm").toggle()<CR>', { nor
 vim.keymap.set("t", "<leader>t", '<C-\\><C-n><CMD>lua require("FTerm").toggle()<CR>', { noremap = true, silent = true })
 
 -- toggle lsp errors
-vim.keymap.set("n", "<leader>e", "<cmd>TroubleToggle<cr>", { noremap = true, silent = true })
-
--- Telescope searches
-vim.keymap.set("n", "<leader>ff", ":Telescope find_files<cr>", { noremap = true, silent = false })
-vim.keymap.set("n", "<leader>fg", ":Telescope live_grep<cr>", { noremap = true, silent = false })
-vim.keymap.set("n", "<leader>fb", ":Telescope buffers<cr>", { noremap = true, silent = false })
+vim.keymap.set("n", "<leader>e", "<cmd>TroubleToggle<cr>", { noremap = true, silent = true }) 
 
 -- LSP searches
 vim.keymap.set("n", "<leader>d", "<cmd>lua vim.lsp.buf.definition()<cr>", { noremap = true, silent = false })
