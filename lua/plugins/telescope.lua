@@ -10,33 +10,34 @@ return {{
     -- vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
     -- vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
     -- vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
-    {
-        "<leader>fp",
-        function()
-            require("telescope.builtin").find_files({
-                cwd = require("lazy.core.config").options.root
-            })
-        end,
-        desc = "Find Plugin File"
-    }, {
-        "<leader>ff",
-        function()
-            require("telescope.builtin").find_files()
-        end,
-        desc = "Find File"
-    }, {
-        "<leader>fg",
-        function()
-            require("telescope.builtin").live_grep()
-        end,
-        desc = "Live Grep"
-    }, {
-        "<leader>fb",
-        function()
-            require("telescope.builtin").buffers()
-        end,
-        desc = "Find Plugin File"
-    }},
+    -- {
+    --     "<leader>fp",
+    --     function()
+    --         require("telescope.builtin").find_files({
+    --             cwd = require("lazy.core.config").options.root
+    --         })
+    --     end,
+    --     desc = "Find Plugin File"
+    -- }, {
+    --     "<leader>ff",
+    --     function()
+    --         require("telescope.builtin").find_files()
+    --     end,
+    --     desc = "Find File"
+    -- }, {
+    --     "<leader>fg",
+    --     function()
+    --         require("telescope.builtin").live_grep()
+    --     end,
+    --     desc = "Live Grep"
+    -- }, {
+    --     "<leader>fb",
+    --     function()
+    --         require("telescope.builtin").buffers()
+    --     end,
+    --     desc = "Find Plugin File"
+    -- }
+    },
     -- change some options
     opts = {
         defaults = {
