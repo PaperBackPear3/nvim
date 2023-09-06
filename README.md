@@ -1,7 +1,7 @@
 # nvim
 personal NeoVim Config
 
-Based on [Lazy.load](https://github.com/folke/lazy.nvim) 
+Package manager [Lazy.load](https://github.com/folke/lazy.nvim) 
 
 ### Plugins:
 - Telescope
