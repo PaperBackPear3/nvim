@@ -1,5 +1,5 @@
 -- This file is automatically loaded by plugins.core
-vim.g.maplocalleader = "\\"
+vim.g.maplocalleader = ","
 
 local opt = vim.opt
 
