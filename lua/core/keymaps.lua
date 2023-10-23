@@ -14,8 +14,6 @@ vim.keymap.set("t", "<Esc>", "<C-\\><C-n>", { noremap = true })
 -- buffer navigation
 vim.keymap.set("n", "<leader>a", ":bprevious<cr>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>s", ":bnext<cr>", { noremap = true, silent = true })
--- show undotree
-vim.keymap.set("n", "<leader>b", ":NvimTreeToggle<cr>", { noremap = true, silent = true })
 
 -- split windows
 vim.keymap.set("n", "<leader>h", ":FocusSplitLeft<cr>", { silent = true })
